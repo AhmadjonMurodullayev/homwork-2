@@ -1,0 +1,65 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box; 
+   text-decoration: none;
+   list-style: none;
+   
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: rgb(249, 237, 237);
+}
+.Choose{
+    padding: 20px 0px;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.Choose-desc{
+    padding: 10px;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    gap: 20px;
+    
+    
+}
+ .card{
+    width: 200px;
+    height: 290px;
+    border: 2px solid rgb(132, 130, 130);
+    background-color: white;
+    
+   
+    /* gap: 20px; */
+   
+ }
+ 
+ .card h1{
+    margin: 20px;
+ }
+ .card h2{
+margin: 10px;
+ }
+ button{
+    background-color: blueviolet;
+    /* font-size: 20px; */
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+ }
+ i{
+    color: blueviolet;
+ }
+ .card-batton{
+    background-color: white;
+    color: blue;
+    border: color  blue);
+ }
